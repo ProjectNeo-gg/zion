@@ -9,7 +9,6 @@
     @apply border-8;
     @apply border-orange-normal;
     width: 40%;
-    @apply m-4;
 
     @screen md {
       @apply w-64;

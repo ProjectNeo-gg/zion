@@ -22,7 +22,7 @@ module.exports = {
         '32px': '2rem',
         '64px': '4rem'
       }
-    },
+    }
   },
-  plugins: [],
-}
+  plugins: []
+};
