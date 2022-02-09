@@ -13,6 +13,7 @@
   h2 {
     font-size: 1.5rem;
     line-height: 1.5rem;
+    font-weight: 400;
     @apply mt-8;
   }
 </style>

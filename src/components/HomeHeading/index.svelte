@@ -11,8 +11,7 @@
     h1 {
       @apply text-32px;
       line-height: 2.5rem;
-    }
-    h3 {
+      font-weight: 400;
     }
   }
 </style>

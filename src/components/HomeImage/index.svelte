@@ -6,7 +6,7 @@
   .img-wrapper {
     @apply inline-block;
     @apply rounded;
-    @apply border-8;
+    border-width: 4px;
     @apply border-orange-normal;
     width: 40%;
 

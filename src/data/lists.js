@@ -35,7 +35,7 @@ const expYears = new Date().getFullYear() - 2015;
 export const AboutMe = {
   title: 'Who am I?',
   content: `I’m Faith and I have been in the web development industry for over ${expYears} years. I can teach you and help you overcome anything that’s hindering your progress. 
-  Learn more about me at <a target="_blank" href="https://faithmorante.netlify.app">Faith's Website<a/>.
+  Learn more about me at <a target="_blank" href="https://faithmorante.netlify.app">Faith's Website</a>.
   I've been mentoring newbies since 2019 and most of the time, mentees become inactive or less committed over time, thus I have prepared this program to make mentees more accountable and be serious about their journey.`
 };
 
@@ -43,7 +43,7 @@ export const Testimonials = {
   title: 'Testimonials',
   data: [
     {
-      imgName: 'davidN.png',
+      imgName: 'davidn.jpeg',
       name: 'Davide Naccarati',
       content: `I had the chance to work on a project and Faith help me to set me on the right track, 
       showing me how to work in a team using different tools because before that, I only used to read from blog posts.
@@ -51,7 +51,7 @@ export const Testimonials = {
       Thanks to her I learned many things but especially how to deal and be confident with them.`
     },
     {
-      imgName: 'joelM.png',
+      imgName: 'joelm.jpeg',
       name: 'Joel P. Mugalu',
       content: `Faith is an exceptional mentor. I was part of her mentorship program and it was such a great experience. I was very pleased by her project based approach and her availability to help and offer vital feedback.
       I have high regard for her and her ability to help others grow as developers. `

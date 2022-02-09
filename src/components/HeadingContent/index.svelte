@@ -8,7 +8,12 @@
 <style lang="postcss">
   h2 {
     font-size: 1.5rem;
+    font-weight: 400;
     line-height: 1.5rem;
     @apply mt-8;
+  }
+
+  :global(a) {
+    text-decoration: underline;
   }
 </style>

@@ -2,9 +2,11 @@
   import Logo from './../components/Logo/index.svelte';
   import DataList from './../components/DataList/index.svelte';
   import HomeImage from './../components/HomeImage/index.svelte';
+  import Testimonial from './../components/Testimonial/index.svelte';
   import HomeHeading from './../components/HomeHeading/index.svelte';
   import HeadingContent from './../components/HeadingContent/index.svelte';
-  import { SubscribeList, ProgramList, NotList, Philosophy, AboutMe } from './../data/lists';
+  import { SubscribeList, ProgramList, NotList, Philosophy, AboutMe, Testimonials } from './../data/lists';
+import Index from './../components/DataList/index.svelte';
 
   const lists = [SubscribeList, ProgramList, NotList];
 </script>
@@ -21,5 +23,18 @@
     {/each}
     <HeadingContent data={Philosophy} />
     <HeadingContent data={AboutMe} />
+    <h2 class="testimonial-title text-orange-normal">{Testimonials.title}</h2>
+    {#each Testimonials.data as item}
+      <Testimonial {...item} />
+    {/each}
   </div>
 </div>
+
+<style lang="postcss">
+  .testimonial-title {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    @apply mt-8;
+  }
+</style>
